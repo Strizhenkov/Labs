@@ -37,7 +37,6 @@ int get_months(int key, int feb_day) {
         case 294 : return 31+28+31+30+31+30+31+31+30+feb_day;                  //Oct
         case 307 : return 31+28+31+30+31+30+31+31+30+31+feb_day;               //Nov
         case 268 : return 31+28+31+30+31+30+31+31+30+31+30+feb_day;            //Dec
-        default : return 0;
     }
 }
 
